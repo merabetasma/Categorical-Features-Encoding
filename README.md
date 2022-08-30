@@ -3,11 +3,11 @@
    In this project, we was predicting the probability [0, 1] of a binary target column called cat.
    The structre dataset  contains binary features , nominal features , ordinal features  as well as (potentially cyclical) day (of the week) and month features, and     for this  we tried to encoding with differents methods:
 
-# 1-binary features:
+# 1-Binary features:
 
    features that contain exactly two classes, for example, 0/1, or positive/negative, or on/off.
 
-# 2-nominal features:
+# 2-Nominal features:
 
    This type of categorical data consists of the name variable without any numerical values.
  
@@ -34,13 +34,13 @@
 
    -LeaveOneOut Encoder
 
-# 3-ordinal features:
+# 3-Ordinal features:
 
    This type of categorical data consists of a set of orders or scales.
 
 
 
-# 4-(potentially) cyclical features (time like day, month):
+# 4- Cyclical features (time like day, month):
 
    A common method for encoding cyclical data is to transform the data into two dimensions using a sine and consine transformation.
 
@@ -55,7 +55,7 @@ Now we go to the fundamental question , Do I have to stick to these methods for 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# TOOLES:
+# TOOLS:
  
    -Language of programming python
  

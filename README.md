@@ -1,7 +1,7 @@
 # Categorical-Features-Encoding
 
-   In this project, you was predicting the probability [0, 1] of a binary target column called cat.
-   The structer dataset  contains binary features , nominal features , ordinal features  as well as (potentially cyclical) day (of the week) and month features, aand     in this project we tried to encoding with diffents methodes:
+   In this project, we was predicting the probability [0, 1] of a binary target column called cat.
+   The structre dataset  contains binary features , nominal features , ordinal features  as well as (potentially cyclical) day (of the week) and month features, aand     in this project we tried to encoding with diffents methodes:
 
 # 1-binary features:
 
@@ -13,7 +13,11 @@
  
    a-if we have low-cardinality (<15) use for encoding:
    
-
+   -One Hot Encoding:
+   
+   In this method, we map each category to a vector that contains 1 and 0, denoting the presence or absence of the feature. The number of vectors depends on the number of categories for features. This method produces many columns that slow down the learning significantly if the number of the category is very high for the feature. Pandas has get_dummies function, which is quite easy to use.
+   
+   
    b-high-cardinality (>15):
 
    -Hash encoding:
@@ -56,6 +60,9 @@ Now we go to the fundamental question , Do I have to stick to these methods for 
    -Language of programming python
  
    -Dataset form  kaggle (https://www.kaggle.com/competitions/cat-in-the-dat)
+   
+   _map![0_NBVi7M3sGyiUSyd5](https://user-images.githubusercontent.com/68021512/187436655-77603c7a-1a38-4abe-af2f-7562a6f08b93.png)
+
  
  
  
